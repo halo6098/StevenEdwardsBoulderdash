@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Game Code">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Animation.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\AnimationSystem.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\AssetManager.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\GameObject.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\SpriteObject.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\TextObject.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Game code\GridObject.cpp">
+      <Filter>Game Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Game code\Level.cpp">
+      <Filter>Game Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Game code\Player.cpp">
+      <Filter>Game Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Game code\Wall.cpp">
+      <Filter>Game Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Game code\Boulder.cpp">
+      <Filter>Game Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Game code\Dirt.cpp">
+      <Filter>Game Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Game code\Diamond.cpp">
+      <Filter>Game Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Game code\Exit.cpp">
+      <Filter>Game Code</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Framework\Animation.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\AnimationSystem.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\AssetManager.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\GameObject.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\SpriteObject.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\TextObject.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Game code\GridObject.h">
+      <Filter>Game Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Game code\Level.h">
+      <Filter>Game Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Game code\Player.h">
+      <Filter>Game Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Game code\Wall.h">
+      <Filter>Game Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Game code\Boulder.h">
+      <Filter>Game Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Game code\Dirt.h">
+      <Filter>Game Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Game code\Diamond.h">
+      <Filter>Game Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Game code\Exit.h">
+      <Filter>Game Code</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
